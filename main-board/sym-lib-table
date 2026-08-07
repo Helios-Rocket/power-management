@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Lib") (type "KiCad") (uri "/home/dash/projects/helios-power-management/kicad-libraries/Lib.kicad_sym") (options "") (descr ""))
+)
