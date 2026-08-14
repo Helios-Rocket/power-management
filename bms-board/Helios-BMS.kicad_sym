@@ -2,56 +2,51 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "BQ25306RTER"
-		(pin_names
-			(offset 0.254)
-		)
+	(symbol "BQ25306"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 22.86 10.16 0)
+			(at 0 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BQ25306RTER"
-			(at 22.86 7.62 0)
+		(property "Value" "BQ25306"
+			(at 0 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Library:WQFN16_RTE_TEX"
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias"
+			(at -0.254 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25306"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25306.pdf"
+			(at -0.254 -35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
@@ -66,80 +61,22 @@
 				)
 			)
 		)
-		(property "ki_keywords" "BQ25306RTER"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "WQFN16_RTE_TEX WQFN16_RTE_TEX-M WQFN16_RTE_TEX-L"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "BQ25306RTER_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -25.4)
-				)
+		(symbol "BQ25306_1_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 8.89 -22.86)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -25.4) (xy 38.1 -25.4)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 -25.4) (xy 38.1 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
-				(length 7.62)
+				(at -11.43 7.62 0)
+				(length 2.54)
 				(name "VBUS"
 					(effects
 						(font
@@ -155,9 +92,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -2.54 0)
-				(length 7.62)
+			(pin power_out line
+				(at -11.43 1.27 0)
+				(length 2.54)
 				(name "REGN"
 					(effects
 						(font
@@ -174,8 +111,8 @@
 				)
 			)
 			(pin output line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at -11.43 -6.35 0)
+				(length 2.54)
 				(name "STAT"
 					(effects
 						(font
@@ -192,8 +129,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
-				(length 7.62)
+				(at -11.43 -11.43 0)
+				(length 2.54)
 				(name "ICHG"
 					(effects
 						(font
@@ -210,8 +147,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
-				(length 7.62)
+				(at -11.43 -19.05 0)
+				(length 2.54)
 				(name "POL"
 					(effects
 						(font
@@ -228,9 +165,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(name "*EN"
+				(at -11.43 -21.59 0)
+				(length 2.54)
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,8 +183,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -15.24 0)
-				(length 7.62)
+				(at 11.43 -21.59 180)
+				(length 2.54)
 				(name "TS"
 					(effects
 						(font
@@ -264,8 +201,8 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.78 0)
-				(length 7.62)
+				(at 11.43 -13.97 180)
+				(length 2.54)
 				(name "FB_GND"
 					(effects
 						(font
@@ -282,8 +219,8 @@
 				)
 			)
 			(pin input line
-				(at 45.72 -20.32 180)
-				(length 7.62)
+				(at 11.43 -11.43 180)
+				(length 2.54)
 				(name "FB"
 					(effects
 						(font
@@ -300,8 +237,8 @@
 				)
 			)
 			(pin input line
-				(at 45.72 -17.78 180)
-				(length 7.62)
+				(at 11.43 -7.62 180)
+				(length 2.54)
 				(name "BAT"
 					(effects
 						(font
@@ -317,9 +254,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 45.72 -15.24 180)
-				(length 7.62)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -335,9 +272,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 45.72 -12.7 180)
-				(length 7.62)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -353,9 +291,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 45.72 -10.16 180)
-				(length 7.62)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 2.54)
 				(name "SW"
 					(effects
 						(font
@@ -371,9 +309,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 45.72 -7.62 180)
-				(length 7.62)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 2.54)
+				(hide yes)
 				(name "SW"
 					(effects
 						(font
@@ -390,8 +329,8 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -5.08 180)
-				(length 7.62)
+				(at 11.43 -1.27 180)
+				(length 2.54)
 				(name "BTST"
 					(effects
 						(font
@@ -407,9 +346,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 45.72 -2.54 180)
-				(length 7.62)
+			(pin power_out line
+				(at 11.43 7.62 180)
+				(length 2.54)
 				(name "PMID"
 					(effects
 						(font
@@ -425,9 +364,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 45.72 0 180)
-				(length 7.62)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -446,39 +386,35 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS22811LRPWR"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "LDK220C33"
+		(power global)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -12.7 13.462 0)
+			(at 0 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "TPS22811LRPWR"
-			(at -12.7 -15.24 0)
+		(property "Value" "LDK220C33"
+			(at 0 4.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Library:IC_TPS22811LRPWR"
-			(at 0 0 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 0 -6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -486,11 +422,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22811.pdf"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/17/47/52/b8/86/63/45/b6/DM00109416.pdf/files/DM00109416.pdf/jcr:content/translations/en.DM00109416.pdf"
+			(at 0 -6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -511,254 +446,106 @@
 				)
 			)
 		)
-		(property "PARTREV" "A"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "TPS22811LRPWR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1mm"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(symbol "TPS22811LRPWR_0_0"
+		(symbol "LDK220C33_1_1"
 			(rectangle
-				(start -12.7 -12.7)
-				(end 12.7 12.7)
+				(start -5.08 2.54)
+				(end 5.08 -5.08)
 				(stroke
-					(width 0.254)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type background)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
-			(pin input line
-				(at -17.78 5.08 0)
-				(length 5.08)
-				(name "EN/UVLO"
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "IN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 2.54 0)
-				(length 5.08)
-				(name "~{EN}/OVLO"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 2.54 180)
-				(length 5.08)
-				(name "PG"
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "EN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 5.08 180)
-				(length 5.08)
-				(name "PGTH"
+			(pin no_connect line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 10.16 0)
-				(length 5.08)
-				(name "IN"
+			(pin power_in line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "OUT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 10.16 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -2.54 180)
-				(length 5.08)
-				(name "DVDT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -5.08 180)
-				(length 5.08)
-				(name "IMON"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -5.08 0)
-				(length 5.08)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -766,56 +553,51 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS22992RXPR"
-		(pin_names
-			(offset 0.254)
-		)
+	(symbol "TPS22811"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 0 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPS22992RXPR"
-			(at 20.32 7.62 0)
+		(property "Value" "TPS22811"
+			(at 0 8.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Library:WQFN8_RXP_TEX"
-			(at 0 0 0)
+		(property "Footprint" "Helios-BMS:TPS22811"
+			(at 0 -9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22992"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22811.pdf"
+			(at 0 -18.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
@@ -830,81 +612,23 @@
 				)
 			)
 		)
-		(property "ki_keywords" "TPS22992RXPR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "WQFN8_RXP_TEX"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "TPS22992RXPR_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -12.7)
-				)
+		(symbol "TPS22811_1_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -10.16)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
-			(polyline
-				(pts
-					(xy 7.62 -12.7) (xy 33.02 -12.7)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -12.7) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin power_in line
-				(at 0 0 0)
-				(length 7.62)
-				(name "VBIAS"
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "EN/UVLO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -919,10 +643,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "VIN"
+			(pin input line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "~{EN}/OVLO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -938,8 +662,8 @@
 				)
 			)
 			(pin output line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at 10.16 -3.81 180)
+				(length 2.54)
 				(name "PG"
 					(effects
 						(font
@@ -948,6 +672,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "PGTH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -956,45 +716,9 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 40.64 -7.62 180)
-				(length 7.62)
-				(name "QOD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 40.64 -5.08 180)
-				(length 7.62)
-				(name "VOUT"
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1010,9 +734,9 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -2.54 180)
-				(length 7.62)
-				(name "CT"
+				(at -5.08 -12.7 90)
+				(length 2.54)
+				(name "DV/DT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1027,10 +751,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 40.64 0 180)
-				(length 7.62)
-				(name "ON"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1038,6 +762,245 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -12.7 90)
+				(length 2.54)
+				(name "IMON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 6.35 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPSM86125x"
+		(power global)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 11.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM86125x"
+			(at 0 9.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Helios-BMS:Texas-QFN-FCMOD-7_4x3.3mm"
+			(at 0 -6.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm861253.pdf"
+			(at 0 -6.604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPSM86125x_1_1"
+			(rectangle
+				(start -6.35 7.62)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin power_in line
+				(at -8.89 6.35 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 6.35 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
