@@ -332,7 +332,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|2095500|863600|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
+        "STM has weak internal pullup so OC->input is fine."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -731,7 +736,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-6,L1-2,R1-24,D1-3,C1-23,#PWR1-34,J1-3,Q1-2,U1-6",
+    "used_designators": "U1-6,Q1-2,J1-4,#PWR1-35,C1-23,D1-3,R1-24,L1-2,#FLG1-6",
     "variants": []
   },
   "sheets": [
