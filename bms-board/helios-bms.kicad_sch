@@ -9572,7 +9572,7 @@
 		(uuid "97462d2b-58a4-4756-b18e-7a339bffd556")
 	)
 	(label "IMON"
-		(at 237.49 93.98 0)
+		(at 237.49 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9582,7 +9582,7 @@
 		(uuid "9b0df6cf-940e-466a-bf0b-30927389709e")
 	)
 	(label "CENTER_TAP_ADC"
-		(at 237.49 96.52 0)
+		(at 237.49 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9642,7 +9642,7 @@
 		(uuid "ccb72bd5-4ccf-4ca7-94c9-33853dbd36e2")
 	)
 	(label "GATE"
-		(at 237.49 91.44 0)
+		(at 237.49 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9682,7 +9682,7 @@
 		(uuid "dd45eb1d-2cba-437d-82ba-368bcad0784a")
 	)
 	(label "PACK_ADC"
-		(at 237.49 99.06 0)
+		(at 237.49 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)

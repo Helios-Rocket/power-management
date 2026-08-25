@@ -144,3 +144,8 @@
 	(condition "A.Type == 'via' && A.Layer != 'outer'")
 	(constraint hole_size (min 0.15mm))
 )
+
+(rule "keepout_vsw"
+  (condition "A.insideArea('VSWkeepout') && A.NetName == '+VSW'")
+  (constraint disallow)
+)
