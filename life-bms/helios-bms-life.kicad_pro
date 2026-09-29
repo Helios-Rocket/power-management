@@ -328,8 +328,24 @@
   "erc": {
     "erc_exclusions": [
       [
+        "four_way_junction|1384300|546100|64b1525a-83e2-4593-8d55-e93ee9ba2c8b|c1d90619-e71a-4c05-b2a5-ec099f1a34e4|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
+        "four_way_junction|571500|1892300|21f20036-16d2-4561-8e7c-0d60b44c107b|8b6108b9-67ba-43d4-a555-1724bcad9e98|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        ""
+      ],
+      [
+        "multiple_net_names|444500|1676400|79d2cd85-fb3f-46fa-8f3c-ec6fbcf251c9|7f998be1-11a5-4b87-a58c-d2372a5c9f1b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+        ""
+      ],
+      [
         "pin_not_driven|2095500|863600|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
         "STM has weak internal pullup so OC->input is fine."
+      ],
+      [
+        "pin_not_driven|317500|660400|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
+        ""
       ]
     ],
     "meta": {
@@ -520,7 +536,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -603,7 +619,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "helios-bms-life.step",
       "svg": "",
       "vrml": ""
     },

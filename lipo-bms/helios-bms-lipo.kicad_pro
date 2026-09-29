@@ -62,10 +62,10 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.5,
+          "min_island_area": 4.0,
+          "min_thickness": 0.275,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -79,43 +79,23 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|107661007|73320000|bf86e51b-b92c-4f4e-8216-88c318a39921|cce81a93-4101-4ffc-a24b-85d21337fda6",
-          "Capacitor will be folded over."
-        ],
-        [
-          "footprint_symbol_field_mismatch|106000000|71600000|bf86e51b-b92c-4f4e-8216-88c318a39921|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|89500000|85550000|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|86415000|84532500|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          "Make things nicer."
-        ],
-        [
-          "lib_footprint_mismatch|104750000|71600000|bf86e51b-b92c-4f4e-8216-88c318a39921|00000000-0000-0000-0000-000000000000",
-          "Silkscreen modification."
-        ],
-        [
-          "lib_footprint_mismatch|104750000|77600000|fa49e352-56f9-4152-a5c8-88e66baffbbd|00000000-0000-0000-0000-000000000000",
-          "I'm aware."
-        ],
-        [
-          "lib_footprint_mismatch|105129900|83110050|b33823e0-8a6e-49d7-8770-fe25a59b08af|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|89400000|85287500|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|112050000|74695000|97ba8100-dd10-400d-bcb7-849baffa3243|00000000-0000-0000-0000-000000000000",
-          "Silkscreen modification."
+          "lib_footprint_mismatch|90572500|83479104|4f509bba-9e3d-48bf-bd9e-ad625b2d0b63|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|86315000|84270000|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          "I'm aware."
+          "lib_footprint_mismatch|93137500|84715896|6456bf8f-9992-4ae7-baf9-d2670127a5f7|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|93565000|74220000|86ab6049-a0b0-49e6-aeab-ebe53191bbdb|00000000-0000-0000-0000-000000000000",
-          "I'm aware."
-        ],
-        [
-          "lib_footprint_mismatch|94985000|71200000|3a7722b9-803b-40ea-8478-db78178358fc|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|93500000|81175000|f8fa2702-27c4-4cfe-991d-b5fb1f4a600c|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -166,7 +146,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "error",
         "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -346,6 +326,14 @@
       [
         "pin_not_driven|2095500|863600|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
         "STM has weak internal pullup so OC->input is fine."
+      ],
+      [
+        "pin_not_driven|317500|673100|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
+        ""
+      ],
+      [
+        "pin_to_pin|1930400|279400|cc55b851-44e2-479c-8f45-ecb4458e3501|d620900a-ce8b-4551-9804-8fc82599ad00|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+        ""
       ]
     ],
     "meta": {
@@ -574,7 +562,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Helios-BMS"
+    ]
   },
   "meta": {
     "filename": "helios-bms-lipo.kicad_pro",
@@ -617,7 +607,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "helios-bms-lipo.step",
       "svg": "",
       "vrml": ""
     },
@@ -627,9 +617,9 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -679,14 +669,44 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -746,7 +766,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "H1-3,U1-6,Q1-2,J1-5,#PWR1-38,C1-23,D1-3,R1-26,L1-2,#FLG1-6",
+    "used_designators": "#FLG1-6,L1-2,R1-27,D1-4,C1-23,#PWR1-40,J1-5,Q1-5,U1-7,H1-3",
     "variants": []
   },
   "sheets": [
