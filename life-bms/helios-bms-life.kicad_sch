@@ -6318,17 +6318,6 @@
 		)
 		(uuid "1c1b132a-0c46-438e-adb4-1f8a500dc5c7")
 	)
-	(text "To:do:\n- MOSFET Selection\n- Load Switch Passive selection"
-		(exclude_from_sim no)
-		(at 177.292 160.782 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "2fd6f160-ae7b-4a13-ae98-e811bd8e4c11")
-	)
 	(text "DS 10.2.2\n\"Typical Application\nwith External Power Path\""
 		(exclude_from_sim no)
 		(at 127 15.24 0)
@@ -6468,7 +6457,7 @@
 	)
 	(text "Battery Cell\nVoltage Monitoring"
 		(exclude_from_sim no)
-		(at 117.602 84.328 0)
+		(at 117.856 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,6 +6465,18 @@
 			(justify right)
 		)
 		(uuid "981cb116-f30d-4d78-9cd3-2ea0f648b4f9")
+	)
+	(text "7.2V Pack Max\n~ 0.4 ratio\nRT ~ 1.5RB\nActual = 0.3984"
+		(exclude_from_sim no)
+		(at 78.74 116.84 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a75cf100-83b5-409e-af6d-e59996a1019b")
 	)
 	(text "Battery Charger"
 		(exclude_from_sim no)
@@ -6510,6 +6511,18 @@
 			(justify left top)
 		)
 		(uuid "ded6ccfe-4311-49ab-84a0-9e3811336782")
+	)
+	(text "3.6V Cell Max\n~ 0.85 ratio\nRT ~ 0.177RB\nActual = 0.8515"
+		(exclude_from_sim no)
+		(at 118.11 116.84 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2018511-3247-44e6-a719-16efb5d724ce")
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
@@ -9840,7 +9853,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "453k"
 			(at 88.9 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +11686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3J332R"
+		(property "Value" "SSM6J507NU"
 			(at 141.224 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -15191,7 +15204,7 @@
 		(dnp no)
 		(uuid "acaab904-54b5-408b-8ddf-b77e93cc7989")
 		(property "Reference" "D1"
-			(at 157.48 21.844 0)
+			(at 157.734 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15200,8 +15213,9 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "GSDH3005"
 			(at 157.48 24.384 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16460,13 +16474,13 @@
 			)
 		)
 		(pin "6"
-			(uuid "388769fc-6dc2-4526-a856-b34c645228eb")
+			(uuid "388769fc-6dc2-4526-a856-b34c645228ec")
 		)
 		(pin "2"
-			(uuid "861e0508-8dec-4865-bc1d-475ce83fefda")
+			(uuid "861e0508-8dec-4865-bc1d-475ce83fefdb")
 		)
 		(pin "1"
-			(uuid "ee4b76a0-dad6-4f3b-87e6-ece2d8f21185")
+			(uuid "ee4b76a0-dad6-4f3b-87e6-ece2d8f21186")
 		)
 		(pin "3"
 			(uuid "0e023beb-e907-4047-a7e8-4360bfb014b0")
@@ -16995,7 +17009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "52.3k"
 			(at 101.6 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
