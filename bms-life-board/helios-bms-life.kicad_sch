@@ -2317,6 +2317,537 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Helios-BMS:Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q5"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NMOS PMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Complementary Pair N-MOS N-MOSFET P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1_1_1"
+				(unit_name "NMOS")
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1_2_1"
+				(unit_name "PMOS")
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Helios-BMS:SIP32434"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4316,12 +4847,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4329,7 +4858,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4339,8 +4868,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4361,18 +4890,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4383,40 +4901,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4427,288 +4912,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4719,51 +4923,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMOS_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -4907,7 +5067,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -4930,11 +5090,11 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4949,10 +5109,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4968,9 +5128,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6464,6 +6624,12 @@
 		(uuid "52e52766-721f-47f4-9180-6b1745fb024e")
 	)
 	(junction
+		(at 107.95 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53abf0c9-b5f6-48b9-982a-5f9d0ede260a")
+	)
+	(junction
 		(at 74.93 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6696,7 +6862,7 @@
 		(uuid "5c8e9abe-9858-4ed8-b9f0-bbef48f83386")
 	)
 	(no_connect
-		(at 124.46 124.46)
+		(at 124.46 111.76)
 		(uuid "73f1a94d-0184-4c20-bb34-bf96ce495f3b")
 	)
 	(no_connect
@@ -7002,6 +7168,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 127) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23088eb0-bc44-40a6-893d-8f26ab722672")
+	)
+	(wire
+		(pts
 			(xy 69.85 181.61) (xy 74.93 181.61)
 		)
 		(stroke
@@ -7139,16 +7315,6 @@
 			(type default)
 		)
 		(uuid "323f4f2f-2c29-4a4b-b02a-81f7604ed2b6")
-	)
-	(wire
-		(pts
-			(xy 107.95 121.92) (xy 107.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a381ff-47cd-45fa-a8e5-d59af6c2bf29")
 	)
 	(wire
 		(pts
@@ -8205,6 +8371,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 107.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87901ca-1bc5-482f-aaa2-af6c2d0c9d85")
+	)
+	(wire
+		(pts
 			(xy 19.05 146.05) (xy 19.05 148.59)
 		)
 		(stroke
@@ -8807,6 +8983,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 113.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9f873a-37b3-4f48-9372-52ff4fd70b60")
+	)
+	(wire
+		(pts
 			(xy 44.45 52.07) (xy 44.45 53.34)
 		)
 		(stroke
@@ -8884,6 +9070,16 @@
 			(type default)
 		)
 		(uuid "f3e2a135-881b-4554-91ee-a856d3d59634")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bb2d48-e82d-4daa-b59e-730d1ef4b113")
 	)
 	(wire
 		(pts
@@ -9116,7 +9312,7 @@
 		(uuid "97462d2b-58a4-4756-b18e-7a339bffd556")
 	)
 	(label "IMON"
-		(at 59.69 76.2 0)
+		(at 59.69 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9196,7 +9392,7 @@
 		(uuid "ccb72bd5-4ccf-4ca7-94c9-33853dbd36e2")
 	)
 	(label "GATE"
-		(at 59.69 78.74 0)
+		(at 59.69 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9368,6 +9564,101 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR031")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Helios-BMS:Q_Dual_NMOS_PMOS_S1G1D2S2G2D1")
+		(at 93.98 129.54 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "043b096b-9c11-45e8-a200-dc8059cff94d")
+		(property "Reference" "Q2"
+			(at 98.806 127.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
+			(at 100.33 128.2701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 93.98 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NMOS PMOS transistor, 6 pin package"
+			(at 93.98 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "388769fc-6dc2-4526-a856-b34c645228eb")
+		)
+		(pin "2"
+			(uuid "861e0508-8dec-4865-bc1d-475ce83fefda")
+		)
+		(pin "1"
+			(uuid "ee4b76a0-dad6-4f3b-87e6-ece2d8f21185")
+		)
+		(pin "3"
+			(uuid "053b37db-db8b-49f3-b5dc-83c8eecf66e6")
+		)
+		(pin "5"
+			(uuid "28d01240-497c-40b3-a9d0-a81c1b185bc9")
+		)
+		(pin "4"
+			(uuid "b79a6ece-2c44-41ce-9873-ea96b7966d40")
+		)
+		(instances
+			(project "helios-bms-life"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q2")
+					(unit 2)
 				)
 			)
 		)
@@ -9857,124 +10148,6 @@
 			(project "helios-bms-life"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 93.98 129.54 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "181a02f0-c2a0-480a-be75-0ad7f6a28cee")
-		(property "Reference" "Q2"
-			(at 100.33 130.8101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 100.33 128.2701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 93.98 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 93.98 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 93.98 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 93.98 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 93.98 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2f6cf09a-9491-4170-8623-c8a810683fa6")
-		)
-		(pin "3"
-			(uuid "db3f98f4-5a95-48b3-b2fc-174616b0b057")
-		)
-		(pin "1"
-			(uuid "1d6e507e-4eb3-49d6-a5e2-c6091c3d556b")
-		)
-		(instances
-			(project "helios-bms-life"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10634,7 +10807,6 @@
 		)
 		(pin "9"
 			(uuid "dfb2e329-1284-4b61-8150-27081e5bda14")
-			(alternate "ADC_IN6")
 		)
 		(pin "7"
 			(uuid "7db3b900-36a2-45ec-906c-fbc14237fd09")
@@ -10995,6 +11167,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 105.41 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4503ca4d-1779-431a-ab0b-a68ddc4226cc")
+		(property "Reference" "Q3"
+			(at 111.76 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 111.76 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
+			(at 110.49 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 105.41 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "332f47fd-15b1-47f6-a36d-687951075607")
+		)
+		(pin "1"
+			(uuid "c404c60b-7ffd-40ff-a474-be9273743920")
+		)
+		(pin "2"
+			(uuid "8cb43415-5c90-4990-9c18-a4487d421aaa")
+		)
+		(instances
+			(project "helios-bms-life"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 96.52 140.97 0)
 		(unit 1)
@@ -11237,7 +11494,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 146.05 146.05 0)
+		(at 139.7 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11248,7 +11505,7 @@
 		(fields_autoplaced yes)
 		(uuid "50748e7d-113f-443e-8099-ad6ffbd655f1")
 		(property "Reference" "H1"
-			(at 148.59 144.7799 0)
+			(at 142.24 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11259,7 +11516,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 148.59 147.3199 0)
+			(at 142.24 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11270,7 +11527,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 146.05 146.05 0)
+			(at 139.7 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11281,7 +11538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 146.05 0)
+			(at 139.7 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,7 +11549,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 146.05 146.05 0)
+			(at 139.7 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12738,6 +12995,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 113.03 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c6ecc76-d5e4-42e7-bfc2-25943c35c511")
+		(property "Reference" "#PWR035"
+			(at 113.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 113.03 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 113.03 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19322a66-515c-4726-b862-4a781c1f29d9")
+		)
+		(instances
+			(project "helios-bms-life"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 19.05 143.51 0)
 		(unit 1)
@@ -13293,7 +13628,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 146.05 152.4 0)
+		(at 139.7 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13304,7 +13639,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8ec6a7-757d-4f98-8f7d-b1aaed03c91f")
 		(property "Reference" "H2"
-			(at 148.59 151.1299 0)
+			(at 142.24 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13315,7 +13650,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 148.59 153.6699 0)
+			(at 142.24 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13326,7 +13661,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 146.05 152.4 0)
+			(at 139.7 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +13672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 152.4 0)
+			(at 139.7 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,7 +13683,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 146.05 152.4 0)
+			(at 139.7 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15023,124 +15358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 105.41 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd126f7e-adea-43b7-8d8b-f72e4d4d9763")
-		(property "Reference" "Q3"
-			(at 111.76 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 111.76 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 105.41 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 105.41 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 105.41 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 105.41 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 105.41 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "496da151-5e38-41a1-ae71-9026b51f9771")
-		)
-		(pin "3"
-			(uuid "b054196e-0cff-407f-b2da-29a7bb867518")
-		)
-		(pin "1"
-			(uuid "3a4d471d-4611-434b-bb8c-9d3f58c20e8b")
-		)
-		(instances
-			(project "helios-bms-life"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 153.67 34.29 0)
 		(mirror y)
@@ -15377,8 +15594,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 124.46 116.84 0)
-		(mirror y)
+		(at 124.46 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15388,7 +15604,7 @@
 		(dnp no)
 		(uuid "c0c4983b-2c70-4116-bbb2-81a9e7c3815a")
 		(property "Reference" "J3"
-			(at 124.46 110.49 0)
+			(at 124.46 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15398,7 +15614,7 @@
 			)
 		)
 		(property "Value" "Output"
-			(at 124.46 113.03 0)
+			(at 124.46 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15408,7 +15624,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ZE_SM02B-ZESS-TB_1x02-1MP_P1.50mm_Horizontal"
-			(at 124.46 116.84 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15419,7 +15635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 116.84 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15430,7 +15646,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 116.84 0)
+			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16177,6 +16393,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Helios-BMS:Q_Dual_NMOS_PMOS_S1G1D2S2G2D1")
+		(at 82.55 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3eaf92c-f1f0-4081-b1fc-dccf7a6ef725")
+		(property "Reference" "Q2"
+			(at 74.93 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NMOS_PMOS_S1G1D2S2G2D1"
+			(at 88.9 138.4299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NMOS PMOS transistor, 6 pin package"
+			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "388769fc-6dc2-4526-a856-b34c645228eb")
+		)
+		(pin "2"
+			(uuid "861e0508-8dec-4865-bc1d-475ce83fefda")
+		)
+		(pin "1"
+			(uuid "ee4b76a0-dad6-4f3b-87e6-ece2d8f21185")
+		)
+		(pin "3"
+			(uuid "0e023beb-e907-4047-a7e8-4360bfb014b0")
+		)
+		(pin "5"
+			(uuid "1a9a0f9b-867e-49c8-9f13-ac990dcd2c5d")
+		)
+		(pin "4"
+			(uuid "c1077271-a391-414b-83fb-80077f5fd56c")
+		)
+		(instances
+			(project "helios-bms-life"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 36.83 31.75 0)
 		(mirror y)
@@ -16739,124 +17049,6 @@
 			(project "helios-bms-life"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 82.55 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f112ea16-46c8-4cba-a713-50386b385faa")
-		(property "Reference" "Q4"
-			(at 88.9 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 88.9 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 82.55 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 82.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 82.55 154.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 82.55 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 82.55 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75b07e75-451c-4174-8aee-3652f72391ce")
-		)
-		(pin "2"
-			(uuid "c3235afb-77dc-48db-b088-b17f26ae0bfb")
-		)
-		(pin "3"
-			(uuid "92843b69-96bb-41c7-b2ae-d98e42311ed9")
-		)
-		(instances
-			(project "helios-bms-life"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

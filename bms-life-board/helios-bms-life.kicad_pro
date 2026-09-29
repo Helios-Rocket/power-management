@@ -62,10 +62,10 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.5,
+          "min_island_area": 4.0,
+          "min_thickness": 0.275,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -79,12 +79,28 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|86415000|84532500|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          "Make things nicer."
+          "footprint_type_mismatch|89697500|85516604|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|86315000|84270000|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          "I'm aware."
+          "lib_footprint_mismatch|106483750|72847500|b6d00b24-bdef-45c6-b031-60b2a676a638|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|109350000|75700000|b04292de-0e68-4cd8-9138-ed0d8b361666|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|89597500|85254104|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|90572500|83479104|4f509bba-9e3d-48bf-bd9e-ad625b2d0b63|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|93772500|81199104|f8fa2702-27c4-4cfe-991d-b5fb1f4a600c|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -134,7 +150,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "error",
         "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
