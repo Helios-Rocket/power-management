@@ -577,7 +577,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "helios-bms.kicad_pro",
+    "filename": "helios-bms-lipo.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -741,8 +741,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "helios-bms.kicad_sch",
-        "name": "helios-bms",
+        "filename": "helios-bms-lipo.kicad_sch",
+        "name": "helios-bms-lipo",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
@@ -752,7 +752,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "helios-bms"
+      "helios-bms-lipo"
     ]
   ],
   "text_variables": {},
