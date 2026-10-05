@@ -39,9 +39,9 @@
         "other_text_thickness": 0.1524,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -61,11 +61,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 4.0,
-          "min_thickness": 0.275,
-          "pad_connection": 2,
-          "remove_islands": 2,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -77,32 +77,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "footprint_type_mismatch|89697500|85516604|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|106483750|72847500|b6d00b24-bdef-45c6-b031-60b2a676a638|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|109350000|75700000|b04292de-0e68-4cd8-9138-ed0d8b361666|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|89597500|85254104|523a90d1-8281-4923-b648-070b6295c7e1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|90572500|83479104|4f509bba-9e3d-48bf-bd9e-ad625b2d0b63|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|93772500|81199104|f8fa2702-27c4-4cfe-991d-b5fb1f4a600c|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -124,10 +99,10 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -145,11 +120,11 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "error",
-        "silk_over_copper": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -161,7 +136,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -179,22 +154,22 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.09,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1944,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.75,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_text_height": 0.1,
+        "min_text_thickness": 0.153,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.005,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.25,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -243,18 +218,25 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
-        0.15,
-        0.2,
-        0.25,
-        0.3,
-        0.35,
-        0.4,
-        0.45,
-        0.5,
-        0.6,
-        0.75,
-        1.0
+        0.127,
+        0.254,
+        0.381,
+        0.508,
+        0.635,
+        0.762,
+        0.889,
+        1.016,
+        1.143,
+        1.27,
+        1.397,
+        1.524,
+        1.651,
+        1.778,
+        1.905,
+        2.032,
+        2.159,
+        2.286,
+        2.54
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -292,8 +274,32 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.75,
-          "drill": 0.5
+          "diameter": 0.635,
+          "drill": 0.381
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.508
+        },
+        {
+          "diameter": 0.889,
+          "drill": 0.635
+        },
+        {
+          "diameter": 1.016,
+          "drill": 0.762
+        },
+        {
+          "diameter": 1.143,
+          "drill": 0.889
+        },
+        {
+          "diameter": 1.27,
+          "drill": 1.016
+        },
+        {
+          "diameter": 1.397,
+          "drill": 1.143
         }
       ],
       "zones_allow_external_fillets": false,
@@ -328,23 +334,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "four_way_junction|1384300|546100|64b1525a-83e2-4593-8d55-e93ee9ba2c8b|c1d90619-e71a-4c05-b2a5-ec099f1a34e4|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
+        "multiple_net_names|1206500|736600|d36fcbbb-3d91-4fad-9afd-a8f2c4f5489d|6eebe957-a452-4564-9348-c76f6b6f7584|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7a786a3f-e26d-4f83-b0cc-958d859fa8ee|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7a786a3f-e26d-4f83-b0cc-958d859fa8ee|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7a786a3f-e26d-4f83-b0cc-958d859fa8ee",
         ""
       ],
       [
-        "four_way_junction|571500|1892300|21f20036-16d2-4561-8e7c-0d60b44c107b|8b6108b9-67ba-43d4-a555-1724bcad9e98|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55||",
-        ""
-      ],
-      [
-        "multiple_net_names|444500|1676400|79d2cd85-fb3f-46fa-8f3c-ec6fbcf251c9|7f998be1-11a5-4b87-a58c-d2372a5c9f1b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-        ""
-      ],
-      [
-        "pin_not_driven|2095500|863600|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
-        "STM has weak internal pullup so OC->input is fine."
-      ],
-      [
-        "pin_not_driven|317500|660400|b7b1b9ee-cb76-46e4-902e-14bd719039c7|00000000-0000-0000-0000-000000000000|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|",
+        "pin_to_pin|1841500|1231900|a08c244d-cf93-43cf-95c8-beca89618872|87c0e243-bb96-4094-8ae7-d42d386c3b84|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
         ""
       ]
     ],
@@ -536,7 +530,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -562,7 +556,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "warning",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -574,33 +568,31 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "Helios-BMS"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "helios-bms-life.kicad_pro",
+    "filename": "umbilical-controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.254,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.635,
+        "microvia_drill": 0.381,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.254,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "via_diameter": 0.635,
+        "via_drill": 0.381,
         "wire_width": 6
       }
     ],
@@ -619,7 +611,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "helios-bms-life.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -629,7 +621,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
@@ -692,12 +684,6 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
           "show": false
         },
         {
@@ -773,18 +759,34 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "helios-bms-life.kicad_sch",
-        "name": "helios-bms-life",
+        "filename": "umbilical-controller.kicad_sch",
+        "name": "umbilical-controller",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-6,L1-2,R1-26,D1-3,C1-23,#PWR1-38,J1-5,Q1-5,U1-6,H1-3",
+    "used_designators": "L1-2,SW1-2,#FLG1-7,Q1,U1-11,TP1-4,TP9,R1-38,C1-23,#PWR1-45,#PWR48-49,J1-4",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "helios-bms-life"
+      "umbilical-controller"
+    ],
+    [
+      "7a786a3f-e26d-4f83-b0cc-958d859fa8ee",
+      "Load Switch2"
+    ],
+    [
+      "6b738471-44fb-4c95-86a8-1bbd78d3311c",
+      "RS485-Driver1"
+    ],
+    [
+      "246e2905-ad3a-4895-ad57-de08878ced89",
+      "RS485-Driver2"
+    ],
+    [
+      "68168c2b-1a2c-46f0-b5bd-15cdf7e772cd",
+      "Load Switch1"
     ]
   ],
   "text_variables": {},

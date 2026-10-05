@@ -22,7 +22,7 @@
 	(layer "?.Silkscreen")
 	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
 	(constraint text_thickness (min 0.15mm))
-	(constraint text_height (min 0.75mm))
+	(constraint text_height (min 1mm))
 )
 
 (rule "Pad to Silkscreen Clearance"
@@ -143,9 +143,4 @@
 (rule "Blind/Buried Vias (Not Supported)"
 	(condition "A.Type == 'via' && A.Layer != 'outer'")
 	(constraint hole_size (min 0.15mm))
-)
-
-(rule "keepout_vsw"
-  (condition "A.insideArea('VSWkeepout') && A.NetName == '+VSW'")
-  (constraint disallow)
 )
