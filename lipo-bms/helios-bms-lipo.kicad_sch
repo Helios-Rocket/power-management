@@ -9527,10 +9527,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd63a8c-1873-4d64-991d-30b627d1edee")
 		(property "Reference" "R10"
@@ -11079,7 +11079,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "300R"
 			(at 132.588 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "300R"
 			(at 132.588 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
