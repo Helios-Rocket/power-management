@@ -585,7 +585,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "vehicle-connector.step",
       "svg": "",
       "vrml": ""
     },
